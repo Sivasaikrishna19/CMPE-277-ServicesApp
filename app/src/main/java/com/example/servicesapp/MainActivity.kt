@@ -144,7 +144,7 @@ fun PdfDownloadScreen(context: Context) {
                         validationErrors.add(null)
                     }
                     message = if (numberOfFields > 0) {
-                        "Awesome! Go ahead and enter $numberOfFields URLs below"
+                        "Great! Please proceed to input $numberOfFields URLs below."
                     } else {
                         ""
                     }
